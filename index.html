@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="quiz">
+          <h1>Interactive Quiz</h1>
+          <div class="box">
+          <div id="ques1">
+            <h3>1.What is the capital of France?</h3>
+            <br>
+           <input  type="radio" name="ques1" value="A" id="cor_1"/>Park
+            <input type="radio" name="ques1" value="B">London
+            <input type="radio" name="ques1" value="C">Berlin    
+          </div>
+          <div id="ques2">
+            <h3>2.What planets known as the Red palnet? </h3>
+            <br>
+            <input type="radio" name="ques2" value="A" id="cor_2">Mars
+            <input type="radio" name="ques2" value="B">Venus
+            <input type="radio" name="ques2" value="C">Jupiter  
+
+          </div>
+          <div id="ques3">
+           
+            <h3>3.What is the largest mammel on earth ? </h3>
+            <br>
+            <input type="radio" name="ques3" value="A">Elephant
+            <input type="radio" name="ques3" value="B" id="cor_3">Blue Whale
+            <input type="radio" name="ques3" value="C">Giraffe 
+
+          </div>
+          <button class="btn" onclick="result()">Submit</button>
+          </div>
+          
+     </div>
+     <div  class="box2">
+
+        <h1>Interactive Quiz</h1>
+        <h2>Your Quiz Result</h2>
+        <p  id="scores"></p>
+     </div>
+     
+    <script src="script.js"></script>
+     
+     </div>
+</body>
+</html>
